@@ -7,6 +7,7 @@ int main()
 	int n;
 	while (cin >> n)
 	{
+		//cout << int(sqrt(n)) << endl;
 		if (n <= 0 || n > 10000)
 			break;
 		int result = sqrt(n);
